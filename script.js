@@ -5,6 +5,7 @@ let dropMenu = document.querySelector('.drop-menu');
 let menuButton = document.querySelector('.rect-box_horizontal');
 let menuCloserCross = document.querySelector('.drop-menu__cross');
 let greenRectangle = menuButton.querySelector('.rect-box__rectange_small');
+let menuLinkButton = document.querySelectorAll('.drop-menu a');
 
 menuButton.addEventListener('click', function () {
   overlay.classList.add('overlay_visible');
@@ -19,6 +20,12 @@ menuCloserCross.addEventListener('click', function () {
 overlay.addEventListener('click', function () {
   closeModal();
 });
+
+for (let i = 0; i < menuLinkButton.length; i++) {
+  menuLinkButton[i].addEventListener('click', function () {
+    closeModal();
+  });
+}
 
 var closeModal = function () {
   overlay.classList.remove('overlay_visible');
