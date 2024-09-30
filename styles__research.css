@@ -1,6 +1,6 @@
 .research {
     margin: 0 6px 0 14px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .research h2 {

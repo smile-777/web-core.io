@@ -11,6 +11,10 @@ body {
     line-height: 15px;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+  }
+
 h2 { 
     font-size: 18px;
     font-weight: 800;
@@ -33,7 +37,6 @@ header {
     margin: 0 3%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -178,7 +181,6 @@ a:hover {
 .name-box {
     width: 114px;
     height: 36px;
-    display: flex;
     align-items: center;
 }
 
@@ -200,10 +202,11 @@ a:hover {
     color: white;
 }
 
-.button_call {
+.main-page .button_call {
     width: 52px;
     height: 32px;
     padding-top: 3px;
+    margin: 0;
 }
 
 .order-call {

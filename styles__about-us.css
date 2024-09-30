@@ -11,6 +11,7 @@
 .about-us__decor-pic {
     padding: 1px;
     margin-top: -63px;
+    overflow-x: hidden;
 }
 
 .about-us__decor-pic img:first-child {
