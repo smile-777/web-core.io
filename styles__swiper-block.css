@@ -1,0 +1,248 @@
+a {
+    text-decoration: none;
+    color: rgb(107, 90, 249);
+}
+ 
+a:hover {
+    background: rgb(107, 90, 249);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    padding-top: 4px;
+    background-color: rgb(67, 54, 184);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.title {
+    display: block;
+    margin: 31px 0 0 0;
+}
+
+.title_content {
+    display: inline;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: left;
+}
+
+.swiper {
+    margin: 0 auto;
+    padding: 30px 0;
+    height: 220px;
+    z-index: 0;
+  }
+  
+.swiper .swiper-slide {
+    border-radius: 10px;
+    height: 200px;
+    width: 340px;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.7);
+}
+
+.swiper .swiper-slide__wrapper {
+    padding: 0 15px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: relative;
+    bottom: auto;
+    z-index: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgb(221, 221, 221);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(181, 182, 188);
+}
+
+.swiper-slide__count {
+    margin: 2px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-slide__name {
+    white-space: nowrap;
+    overflow-x: visible;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    width: 175px;
+    margin: 0;
+    overflow-y: visible;
+    padding-bottom: 9px;
+    border-bottom: 2px solid rgb(227, 117, 117);
+}
+
+.swiper-slide__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 9px;
+}
+
+.button {
+    display: block;
+    padding: 0;
+    background-color: rgb(107, 90, 249);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+.check-price-button {
+    width: 275px;
+    height: 60px;
+}
+
+.extend-button {
+    display: none;
+}
+
+.extend-button:hover {
+    transform: scale(1.25);
+    transition: 0.3s;
+}
+
+.extend-button_pushed {
+    transform: rotate(180deg);
+    transition-duration: 0.3s;
+}
+
+.extend-button_pushed:hover {
+    transform: rotate(180deg) scale(1.25);
+    transition: 0.3s;
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 29px;
+        width: 750px;
+        margin: 0 auto;
+        margin-top: 41px;
+    }
+
+    .swiper {
+        width: 98%;
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .swiper_extended {
+        height: auto;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 21px;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .swiper-slide {
+        width: 363px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .extend-button {
+        display: block;
+        width: 38px;
+        height: 38px;
+        position: relative;
+        margin: -3px auto;
+        transition-duration: 0.3s;
+    }
+
+    .extend-button__image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }   
+}
+
+
+
+  @media (min-width: 1440px) {
+    body {
+        max-width: 2500px;
+        margin: 0 auto;
+    }
+
+    .title {
+        width: 1170px;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 42px;
+        margin-top: 81px;
+    }
+
+    .swiper {
+        margin-top: 54px;
+    }
+
+    .swiper_extended {
+        height: auto;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 21px;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .swiper-slide {
+        width: 373px;
+    }
+
+    .button {
+        margin-top: 22px;
+    }
+}
+
+@media (min-width: 2416px) {
+    .extend-button {
+        display: none;
+    }
+
+    .button {
+        margin-top: 54px;
+    }
+}

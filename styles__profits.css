@@ -1,0 +1,52 @@
+.profits {
+    margin: 25px 10px;
+}
+
+.profits h2,
+.profits h3 {
+    line-height: 22px;
+    margin: 0;
+}
+
+.profits img {
+    width: 368px;
+    height: auto;
+    position: relative;
+    left: -14px;
+    margin-bottom: 32px;
+}
+
+.profits img.to-left {
+    left: -27px;
+}
+
+.profits img.no-padded {
+    margin-bottom: 0;
+}
+
+.profits__list {
+    margin-bottom: 39px;
+}
+
+.profits ul {
+    margin: 0 0 0 9px;
+	padding: 0;
+    padding-inline-start: 0px;
+}
+
+.profits li {
+    position: relative;
+    list-style-type: none;
+    margin: 8px -5px 0 8px;
+}
+
+.profits li::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background-color: rgb(42, 35, 103);
+    position: absolute;
+    top: 4px;
+    left: -17px;
+    border-radius: 50%;
+}

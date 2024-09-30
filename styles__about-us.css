@@ -1,0 +1,156 @@
+.about-us {
+    margin: 0 9px;
+    margin-bottom: 150px; 
+    padding-top: 1px;
+    border-radius: 20px;
+    background-color: rgb(244, 248, 255);
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.about-us__decor-pic {
+    padding: 1px;
+    margin-top: -63px;
+}
+
+.about-us__decor-pic img:first-child {
+    width: 119px;
+    position: relative;
+    left: -70px;
+
+}
+
+.about-us__decor-pic img:nth-child(2) {
+    width: 103px;
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+
+.call-form {
+    height: 486px;
+    margin: 30px 15px 150px 15px;
+    border-radius: 20px;
+    background-color: rgb(107, 90, 249);
+    color: rgb(255, 255, 255);
+}
+
+.call-form > p:first-child {
+    padding-top: 2em;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0 auto 21px auto;
+}
+
+.call-form > p:nth-child(2) {
+    margin: 0 4% 0 6%;
+}
+
+.about-us__call-form {
+    margin-top: 42px;
+}
+
+.about-us__call-form input[type=text] {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(107, 90, 249);
+    border: none;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.call-form__input-wrapper {
+    width: 250px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin: 0 auto 45px 2em;
+}
+
+.call-form__button {
+    background-color: rgb(255, 255, 255);
+    width: 268px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.call-form__button .button-text {
+    color: rgb(107, 90, 249);
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.blue-text {
+    color: rgb(155, 143, 255);
+}
+
+.check-box__wrapper {
+    margin-top: 35px;
+    margin-left: 45px;
+    text-align: left;
+}
+
+.check-box__box {
+    position: absolute;
+    left: 35px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check-box__fake-box {
+    margin-left: -30px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: rgb(155, 143, 255);
+    border-radius: 2px;
+}
+
+.check-box__box:checked + .check-box__fake-box {
+    background: rgb(155, 143, 255) url(./svg/tick.svg) no-repeat 50% 50%;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+ }
+ :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);  
+ }
+ ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);  
+ }
+ :-ms-input-placeholder {  
+    color: rgba(255, 255, 255, 0.4);  
+ }
+
+ .about-us__decor-pic_bottom {
+    margin-top: -30px;
+ }
+
+.about-us__decor-pic_bottom img {
+    position: relative;
+    height: auto;
+}
+
+.about-us__decor-pic_bottom img:nth-child(1) {
+    width: 42px;
+    left: -83px;
+    bottom: 105px;
+}
+
+.about-us__decor-pic_bottom img:nth-child(2) {
+    width: 91px;
+    right: -112px;
+    bottom: -33px;
+}
+
+.about-us__decor-pic_bottom img:nth-child(3) {
+    width: 221px;
+    left: -60px;
+    bottom: 10px;
+}

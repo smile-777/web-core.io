@@ -1,0 +1,59 @@
+.sertificate {
+    margin: 88px 10px 107px 10px;
+}
+
+.outer {
+    background-color: rgb(240, 213, 119);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.inner {
+    margin: 19px 16px 15px 17px;
+    background-color: rgb(240, 213, 119);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.reward-img {
+    display: block;
+    width: 33%;
+    height: auto;
+    margin: 1.5em auto;
+}
+
+.sertificate h4,
+.sertificate p {
+    margin: 5px auto;
+    font-weight: 700;
+    width: 70%;
+    text-align: center;
+}
+
+.sertificate h4 {
+    color: rgb(159, 159, 159);
+}
+
+/*===========================*/
+
+.swiper-sertificate {
+    margin: 24px 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.swiper-sertificate .swiper-slide img {
+    width: 94%;
+    height: auto;
+    margin: 0 3%;
+}
+
+.sertificate__swiper-pagination {
+    text-align: center;
+    margin: 29px auto;
+}
+
+.sertificate .swiper-pagination-bullet-active {
+    background: rgb(107, 90, 249);
+}

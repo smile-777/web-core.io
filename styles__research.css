@@ -1,0 +1,13 @@
+.research {
+    margin: 0 6px 0 14px;
+    overflow: hidden;
+}
+
+.research h2 {
+    margin: 30px auto;
+}
+
+.research img {
+    margin: 7px 0 0 -15px;
+    width: 109%;
+}

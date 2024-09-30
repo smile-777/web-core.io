@@ -1,0 +1,50 @@
+.step {
+    min-height: 332px;
+    margin: 50px 6px 0 14px;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px 0 rgba(42, 35, 103, 0.15);
+}
+
+.step__name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.step__header {
+    width: 92%;
+    margin: 0 auto;
+    padding: 23px 0;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.step__number {
+    background-color: rgb(67, 205, 147);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.step__name {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.step__content {
+    padding-bottom: 25px;
+}
+
+.step__content p {
+    margin: 15px 27px 20px 12px;
+}
+
+.step__content img {
+    width: 90%;
+    height: auto;
+    margin: 0 5%;
+}
