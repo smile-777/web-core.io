@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+.profits__image {
+    display: flex;
+    justify-content: center;
+}
+
 .profits img {
     width: 368px;
     height: auto;
