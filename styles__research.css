@@ -4,10 +4,10 @@
 }
 
 .research h2 {
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
 }
 
 .research img {
-    margin: 7px 0 0 -15px;
+    margin: 7px 0 0 -20px;
     width: 109%;
 }

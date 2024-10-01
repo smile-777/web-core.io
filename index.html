@@ -20,81 +20,81 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="main-page" id="main-page">
-        <header>
-            <div class="rect-box rect-box_horizontal">
-                <div class="rect-box__rectange
-                            rect-box__rectange_radius
-                            rect-box__rectange_large">
-                </div>
-    
-                <div class="rect-box__rectange
-                            rect-box__rectange_radius
-                            rect-box__rectange_medium">
-                </div>
-    
-                <div class="rect-box__rectange
-                            rect-box__rectange_radius
-                            rect-box__rectange_small">
-                </div>
+    <header class="header">
+        <div class="rect-box rect-box_horizontal">
+            <div class="rect-box__rectange
+                        rect-box__rectange_radius
+                        rect-box__rectange_large">
             </div>
+
+            <div class="rect-box__rectange
+                        rect-box__rectange_radius
+                        rect-box__rectange_medium">
+            </div>
+
+            <div class="rect-box__rectange
+                        rect-box__rectange_radius
+                        rect-box__rectange_small">
+            </div>
+        </div>
+        
+        <div class="name-box">
+            <div class="name-box__container">
+                <img src="./svg/logo.svg" alt="millenium" class="name-box__logo">
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+        <div class="drop-menu">
+            <div class="drop-menu__cross">
+                <img src="./svg/cross.svg" class="drop-menu__cross-image">
+            </div>
+            <a href="#main">Главная</a>
+            <a href="#sale">Интернет-магазины,<br>которые продают</a>
+            <a href="#profits">Что вы плучаете</a>
+            <a href="#contact">Контакты</a>
+            <a href="#research">Исследуем бизнес</a>
+            <a href="#steps">Этапы</a>
+            <a href="#feedback">Обратная связь</a>
+            <div class="drop-menu__contacts">
+                <a href="info@millenium.ru" class="drop-menu__email">info@millenium.ru</a>
+                <a href="#">+7 (495) 792-66-69<br>пн-пт 10:00–19:00
+                </a>
+                <a href="#"></a>
+            </div>
+        </div>
+        
+        <nav class="navigation">
+            <p><a class="nav__link">Главная</a></p>
+            <p><a class="nav__link">Цены</a></p>
+            <p><a class="nav__link">Кейсы и отзывы</a></p>
+            <p><a class="nav__link">Контакты</a></p>
+
+        </nav>
+        
+        <div class="contacts">
+            <div class="massagers">
+                <div class="telegram">
+                    <img src="./svg/telegaram.svg">
+                </div>
+                <div class="whatsupp">
+                    <img src="./svg/whatsupp.svg">
+                </div>
+            </div>  
+            <div class="how2call">
+                <div class="phone-number">+ 7 (495) 555 65 65</div>
+                <div class="schedule">Ежедневно с 09:00 до 18:00</div>
+            </div>
+                  
             
-            <div class="name-box">
-                <div class="name-box__container">
-                    <img src="./svg/logo.svg" alt="millenium" class="name-box__logo">
-                </div>
-            </div>
-    
-            <div class="overlay"></div>
-            <div class="drop-menu">
-                <div class="drop-menu__cross">
-                    <img src="./svg/cross.svg" class="drop-menu__cross-image">
-                </div>
-                <a href="#main">Главная</a>
-                <a href="#sale">Интернет-магазины,<br>которые продают</a>
-                <a href="#profits">Что вы плучаете</a>
-                <a href="#contact">Контакты</a>
-                <a href="#research">Исследуем бизнес</a>
-                <a href="#steps">Этапы</a>
-                <a href="#feedback">Обратная связь</a>
-                <div class="drop-menu__contacts">
-                    <a href="info@millenium.ru" class="drop-menu__email">info@millenium.ru</a>
-                    <a href="#">+7 (495) 792-66-69<br>пн-пт 10:00–19:00
-                    </a>
-                    <a href="#"></a>
-                </div>
-            </div>
-            
-            <nav class="navigation">
-                <p><a class="nav__link">Главная</a></p>
-                <p><a class="nav__link">Цены</a></p>
-                <p><a class="nav__link">Кейсы и отзывы</a></p>
-                <p><a class="nav__link">Контакты</a></p>
-    
-            </nav>
-            
-            <div class="contacts">
-                <div class="massagers">
-                    <div class="telegram">
-                        <img src="./svg/telegaram.svg">
-                    </div>
-                    <div class="whatsupp">
-                        <img src="./svg/whatsupp.svg">
-                    </div>
-                </div>  
-                <div class="how2call">
-                    <div class="phone-number">+ 7 (495) 555 65 65</div>
-                    <div class="schedule">Ежедневно с 09:00 до 18:00</div>
-                </div>
-                      
-                
-            </div>
-            <button type="button" class="button button_call button-text">
-                <img src="./svg/phone.svg" alt="call" class="call-icon">
-                <p class="order-call">Заказать звонок</p>
-            </button>
-    
-        </header>
+        </div>
+        <button type="button" class="button button_call button-text">
+            <img src="./svg/phone.svg" alt="call" class="call-icon">
+            <p class="order-call">Заказать звонок</p>
+        </button>
+
+    </header>
+    <section class="main-page" id="main">
         <main class="container">
             <h1 class="slog">Разработка интернет-магазинов <span class="accented-text">на 1С-Битрикс</span></h1>
             <div class="img-container">
@@ -117,11 +117,6 @@
     </section>
 
     <section class="swiper-page" id="sale">
-        <div class="title">
-            <h1 class="title_content">Мы создаем интернет-магазины, 
-                <span class="accented-text">которые продают</span></h1>
-        </div>
-    
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -196,7 +191,7 @@
         </div>
     
         <div class="button-container">
-            <button class="button check-price-button"><span>Узнать стоимость</span></button>
+            <button class="button button_cost"><span>Узнать стоимость</span></button>
         </div>
     </section>
 
@@ -288,6 +283,7 @@
     </section>
 
     <section class="steps" id="steps">
+        <h3 class="text-18px">Этапы</h3>
         <div class="step">
             <div class="step__header">
                 <div class="step__number">1</div>
@@ -425,11 +421,11 @@
                 <button type="button" class="button call-form__button">
                     <span class="button-text">Перезвоните мне</span>
                 </button>
-                <div class="check-box__wrapper">
+                <label class="check-box__wrapper">
                     <input type="checkbox" id="agriment" class="check-box__box" checked required>
                     <span class="check-box__fake-box"></span>
                     <span><span class="blue-text">Cогласен/а на</span> обработку персональных данных</span>
-                </div>
+                </label>
             </form>
             <div class="about-us__decor-pic_bottom">
                 <img src="./img/5f0fd3c8ed6dcee0b99b11fa_Confetti 2 1 1.png">

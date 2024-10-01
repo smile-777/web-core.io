@@ -1,5 +1,5 @@
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +28,12 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.text-18px {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
 .white-text-18px {
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -37,11 +43,16 @@ h2 {
 }
 
 header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
     height: 62px;
-    margin: 0 3%;
+    margin: 0;
+    padding: 0 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 .navigation {
@@ -206,9 +217,9 @@ a:hover {
     color: white;
 }
 
-.main-page .button_call {
+.header .button_call {
     width: 52px;
-    height: 32px;
+    height: 33px;
     padding-top: 3px;
     margin: 0;
 }
@@ -218,8 +229,15 @@ a:hover {
 }
 
 .button_cost {
+    display: block;
+    margin: 0 auto;
     width: 275px;
     height: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
 }
 
 .button-text {

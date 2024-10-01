@@ -1,6 +1,15 @@
+.steps {
+    margin: 0 3%;
+}
+
+.steps .text-18px {
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
 .step {
     min-height: 332px;
-    margin: 50px 6px 0 14px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 10px 60px 0 rgba(42, 35, 103, 0.15);
 }
