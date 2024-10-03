@@ -1,0 +1,12 @@
+.bottom-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 90px auto 100px auto;
+    overflow-x: hidden;
+}
+
+.bottom-image-wrapper img {
+    height: 252px;
+    position: relative;
+    left: 25px;
+}

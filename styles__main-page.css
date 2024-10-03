@@ -354,17 +354,6 @@ a:hover {
     z-index: -1;
 }
 
-.bottom-image {
-    margin: 90px auto 100px auto;
-    overflow-x: hidden;
-}
-
-.bottom-image img {
-    position: relative;
-    width: 170%;
-    left: -28%;
-    height: auto;
-}
 
 
 @media (min-width: 768px) {
