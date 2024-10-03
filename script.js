@@ -3,6 +3,8 @@
 let overlay = document.querySelector('.overlay');
 let dropMenu = document.querySelector('.drop-menu');
 let menuButton = document.querySelector('.rect-box_horizontal');
+let callButton = document.querySelectorAll('.button_call');
+let modalWindow = document.querySelector('.modal');
 let menuCloserCross = document.querySelector('.drop-menu__cross');
 let greenRectangle = menuButton.querySelector('.rect-box__rectange_small');
 let menuLinkButton = document.querySelectorAll('.drop-menu a');
@@ -19,11 +21,19 @@ menuCloserCross.addEventListener('click', function () {
 
 overlay.addEventListener('click', function () {
   closeModal();
+  modalWindow.classList.remove('modal_visible');
 });
 
 for (let i = 0; i < menuLinkButton.length; i++) {
   menuLinkButton[i].addEventListener('click', function () {
     closeModal();
+  });
+}
+
+for (let i = 0; i < callButton.length; i++) {
+  callButton[i].addEventListener('click', function () {
+    overlay.classList.add('overlay_visible');
+    modalWindow.classList.add('modal_visible');
   });
 }
 

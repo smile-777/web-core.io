@@ -5,32 +5,40 @@
     border-radius: 20px;
     background-color: rgb(244, 248, 255);
     text-align: center;
-    padding-bottom: 2px;
 }
 
 .about-us__decor-pic {
-    padding: 1px;
-    margin-top: -63px;
+    min-width: 340px;
+    max-width: 460px;
+    display: flex;
+    justify-content: space-between;
+    margin: -63px auto 0 auto;
     overflow-x: hidden;
 }
 
 .about-us__decor-pic img:first-child {
     width: 119px;
     position: relative;
-    left: -70px;
-
+    left: -15px;
 }
 
 .about-us__decor-pic img:nth-child(2) {
     width: 103px;
     position: relative;
-    left: 90px;
-    top: 5px;
+    right: -35px;
+    top: 15px;
+}
+
+.about-us__call-wraper {
+    padding: 0 4.5%;
 }
 
 .call-form {
+    margin: 30px auto 0 auto;
     height: 486px;
-    margin: 30px 15px 150px 15px;
+    max-width: 472px;
+    min-width: 311px;
+    text-align: center;
     border-radius: 20px;
     background-color: rgb(107, 90, 249);
     color: rgb(255, 255, 255);
@@ -132,28 +140,39 @@
  }
 
  .about-us__decor-pic_bottom {
-    margin-top: -30px;
+    position: relative;
+    text-align: left;
+    display: grid;
+    grid-row: 3;
+    width: 100%;
+    margin-top: -120px;
+    pointer-events: none;
  }
 
 .about-us__decor-pic_bottom img {
     position: relative;
+    display: block;
     height: auto;
+
 }
 
 .about-us__decor-pic_bottom img:nth-child(1) {
     width: 42px;
-    left: -83px;
-    bottom: 105px;
+    left: 18px;
+    margin: 5% auto 0 0;
+    transform: translateY(-20px);
 }
 
 .about-us__decor-pic_bottom img:nth-child(2) {
     width: 91px;
-    right: -112px;
-    bottom: -33px;
+    margin: 20% 5% 0 auto;
+    top: -13%;
+    transform: translate(25px, -17px);
 }
 
 .about-us__decor-pic_bottom img:nth-child(3) {
     width: 221px;
-    left: -60px;
-    bottom: 10px;
+    left: 0;
+    margin-top: -20%;
+    transform: translateY(-20px);
 }

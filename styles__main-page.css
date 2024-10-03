@@ -102,7 +102,8 @@ header {
 }
 
 .overlay_visible,
-.drop-menu_visible {
+.drop-menu_visible,
+.modal_visible {
     display: block;
 }
   
@@ -139,6 +140,22 @@ header {
 
 a.drop-menu__email {
     margin-bottom: 20px;
+}
+
+.modal {
+    position: fixed;
+    width: 312px;
+    height: 486px;
+    left: 0;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 10;;
+}
+
+.modal_visible {
+    display: block;
 }
 
 .contacts {

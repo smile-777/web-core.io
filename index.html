@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя вёрстка 1.5</title>
-
+    
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="styles__main-page.css">
     <link rel="stylesheet" href="styles__swiper-block.css">
@@ -58,9 +59,7 @@
             <a href="#feedback">Обратная связь</a>
             <div class="drop-menu__contacts">
                 <a href="info@millenium.ru" class="drop-menu__email">info@millenium.ru</a>
-                <a href="#">+7 (495) 792-66-69<br>пн-пт 10:00–19:00
-                </a>
-                <a href="#"></a>
+                <a href="#">+7 (495) 792-66-69<br>пн-пт 10:00–19:00</a>
             </div>
         </div>
         
@@ -92,7 +91,30 @@
             <img src="./svg/phone.svg" alt="call" class="call-icon">
             <p class="order-call">Заказать звонок</p>
         </button>
-
+        <div class="call-form modal">
+            <p class="white-text-18px">
+                Звоните нам по телефону <br> +7 (495) 792-66-69
+            </p>
+            <p>или закажите обратный звонок чтобы получить ответы на все 
+                интересующие вас вопросы.
+            </p>
+            <form action="" method="post" class="about-us__call-form">
+                <div class="call-form__input-wrapper">
+                    <input type="text" id="my-name" class="call-form__name" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="call-form__input-wrapper">
+                    <input type="text" id="my-phone" class="call-form__phone" placeholder="+ 7 (999) 999 99 99" required>
+                </div>
+                <button type="button" class="button call-form__button">
+                    <span class="button-text">Перезвоните мне</span>
+                </button>
+                <label class="check-box__wrapper">
+                    <input type="checkbox" id="agriment" class="check-box__box" checked required>
+                    <span class="check-box__fake-box"></span>
+                    <span><span class="blue-text">Cогласен/а на</span> обработку персональных данных</span>
+                </label>
+            </form>
+        </div>
     </header>
     <section class="main-page" id="main">
         <main class="container">
@@ -412,35 +434,36 @@
             онлайн-торговли, добавим контент и товары. Работы по созданию интернет-магазина 
             с нуля ведутся только после анализа ниши бизнеса.
         </p>
-        <div class="call-form">
-            <p class="white-text-18px">
-                Звоните нам по телефону <br> +7 (495) 792-66-69
-            </p>
-            <p>или закажите обратный звонок чтобы получить ответы на все 
-                интересующие вас вопросы.
-            </p>
-            <form action="" method="post" class="about-us__call-form">
-                <div class="call-form__input-wrapper">
-                    <input type="text" id="my-name" class="call-form__name" placeholder="Введите ваше имя" required>
-                </div>
-                <div class="call-form__input-wrapper">
-                    <input type="text" id="my-phone" class="call-form__phone" placeholder="+ 7 (999) 999 99 99" required>
-                </div>
-                <button type="button" class="button call-form__button">
-                    <span class="button-text">Перезвоните мне</span>
-                </button>
-                <label class="check-box__wrapper">
-                    <input type="checkbox" id="agriment" class="check-box__box" checked required>
-                    <span class="check-box__fake-box"></span>
-                    <span><span class="blue-text">Cогласен/а на</span> обработку персональных данных</span>
-                </label>
-            </form>
-            <div class="about-us__decor-pic_bottom">
-                <img src="./img/5f0fd3c8ed6dcee0b99b11fa_Confetti 2 1 1.png">
-                <img src="./img/Cube_Rounded0005 (1) 1.png">
-                <img src="./img/Purple-in-Basic2 1 1.png">
+        <div class="about-us__call-wraper">
+            <div class="call-form">
+                <p class="white-text-18px">
+                    Звоните нам по телефону <br> +7 (495) 792-66-69
+                </p>
+                <p>или закажите обратный звонок чтобы получить ответы на все 
+                    интересующие вас вопросы.
+                </p>
+                <form action="" method="post" class="about-us__call-form">
+                    <div class="call-form__input-wrapper">
+                        <input type="text" id="my-name" class="call-form__name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="call-form__input-wrapper">
+                        <input type="text" id="my-phone" class="call-form__phone" placeholder="+ 7 (999) 999 99 99" required>
+                    </div>
+                    <button type="button" class="button call-form__button">
+                        <span class="button-text">Перезвоните мне</span>
+                    </button>
+                    <label class="check-box__wrapper">
+                        <input type="checkbox" id="agriment" class="check-box__box" checked required>
+                        <span class="check-box__fake-box"></span>
+                        <span><span class="blue-text">Cогласен/а на</span> обработку персональных данных</span>
+                    </label>
+                </form>
             </div>
-            
+        </div>
+        <div class="about-us__decor-pic_bottom">
+            <img src="./img/5f0fd3c8ed6dcee0b99b11fa_Confetti 2 1 1.png">
+            <img src="./img/Cube_Rounded0005 (1) 1.png">
+            <img src="./img/Purple-in-Basic2 1 1.png">
         </div>
     </section>
 
