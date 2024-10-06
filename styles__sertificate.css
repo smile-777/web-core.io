@@ -38,6 +38,10 @@ p.gold-sertificate {
     color: rgb(159, 159, 159);
 }
 
+.swiper-sertificate__text {
+    margin-bottom: 26px;
+}
+
 /*===========================*/
 
 .swiper-sertificate {
@@ -99,5 +103,55 @@ p.gold-sertificate {
     .sertificate__swiper-pagination {
         margin: 26px auto 32px auto;
     }
+
+}
+
+
+@media (min-width: 1440px) {
+
+    .inner {
+        margin: 26px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sertificate {
+        margin: 0 60px 150px 60px;
+    }
+
+    .reward-img {
+        width: auto;
+        margin: 15px 15px 0 15px;
+    }
+
+    .sertificate__swiper-pagination {
+        display: none;
+    }
+
+    .swiper-sertificate {
+        margin: 0;
+        margin-right: 95px;
+        margin-bottom: 18px;
+        width: 560px;
+    }
+
+    .sertificate .swiper-wrapper {
+        gap: 95px;
+        padding: 0;
+    }
+
+    .sertificate .swiper-slide {
+        width: auto;
+        height: auto;
+        align-self: self-end;
+    }
+
+    .swiper-sertificate .swiper-slide img {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+
 
 }

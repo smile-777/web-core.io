@@ -14,7 +14,8 @@
     min-height: 332px;
     margin-top: 50px;
     border-radius: 10px;
-    box-shadow: 0 10px 60px 0 rgba(42, 35, 103, 0.15);
+    box-shadow: 0px 10px 60px 0 rgba(42, 35, 103, 0.15),
+                0px 10px 10px 0 rgba(42, 35, 103, 0.15);
 }
 
 .step__name {
@@ -80,8 +81,6 @@
     .step {
         min-height: 479px;
         margin-top: 50px;
-        border-radius: 10px;
-        box-shadow: 0 10px 60px 0 rgba(42, 35, 103, 0.15);
     }
 
     .steps .step:nth-child(2),
@@ -119,6 +118,64 @@
         width: 92%;
         height: auto;
         margin: 0 4%;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+
+    .steps {
+        margin-top: 55px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .steps .title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-left: 0;
+        margin-bottom: 63px;
+    }
+
+
+    .step {
+        min-height: 479px;
+        margin-top: 50px;
+    }
+
+    .steps .step:nth-child(2),
+    .steps .step:nth-child(3) {
+        padding-bottom: 65px;
+    }
+
+    .step__header {
+        margin: 0 6.5%;
+        padding: 23px 0;
+        width: auto;
+        border-bottom: 1px solid rgb(235, 235, 235);
+    }
+
+    .step__content p {
+        margin: 26px 6.5% 26px 6.5%;
+    }
+
+    .step__content img {
+        width: 87%;
+        height: auto;
+        margin: 0 6.5%;
+    }
+
+    .steps .step:nth-child(1) p,
+    .steps .step:nth-child(2) p,
+    .steps .step:nth-child(3) p {
+        margin-right: 12%;
+    }
+
+    .steps .step:nth-child(4) p,
+    .steps .step:nth-child(5) p,
+    .steps .step:nth-child(6) p {
+        margin-right: 8.5%;
     }
 
 }

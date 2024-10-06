@@ -108,3 +108,49 @@
     }
 
 }
+
+
+@media (min-width: 768px) {
+
+    .contact-us {
+        overflow: visible;
+        width: 100%;
+        margin-left: -80px;
+    }
+
+    .white-text-18px {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .contact-us .mail-us {
+        height: 110px;
+        margin: 0 4%;
+        padding: 65px 0;
+    }
+
+
+    .bottom-text {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 4%;
+        margin-bottom: 33px;
+    }
+
+    .contact-us .button_cost {
+        position: relative;
+        width: 341px;
+        margin-right: 4%;
+        bottom: 120px;
+    }
+
+    .mail-us .mail-bottom {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .massagers-about-us {
+        margin-right: 4%;
+    }
+
+}

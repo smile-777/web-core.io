@@ -463,15 +463,67 @@ a:hover {
 
   }
 
-  @media (min-width: 1366px) {
+  @media (min-width: 1440px) {
     header {
         height: 115px;
         margin: 0;
-        margin-left: 60px;
+        margin: 0;
+        padding: 0 0 0 60px;
+        justify-content: space-between;
+    }
+
+    .header .navigation {
+        display: none;
+    }
+
+    .header .contacts {
+        display: none;
+    }
+
+    .drop-menu__cross {
+        display: none;
     }
 
     .drop-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        width: 70%;
+        height: 115px;
+        left: 0px;
+        top: 0px;
+        border: none;
+        padding: 0;
+    }
+
+    .drop-menu__contacts  {
+        margin: 0;
+        width: 240px;
+    }
+    
+    .drop-menu a {
+        display: inline;
+        width: auto;
+        max-width: 80px;
+        margin: 0;
+        padding: 0;
+    } 
+
+    a.drop-menu__email {
         display: none;
+    }
+
+    .drop-menu__phone {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .drop-menu__schedule {
+        font-weight: 700;
+        margin: 0;
     }
 
     input[type="checkbox"]#cross {
@@ -521,7 +573,7 @@ a:hover {
         line-height: 15px;
     }
 
-    .button_call {
+    .header .button_call {
         width: 177px;
         height: 60px;
         margin-bottom: 2px;

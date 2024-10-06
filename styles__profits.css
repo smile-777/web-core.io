@@ -169,5 +169,57 @@
 
 
 @media (min-width: 1440px) {
-    
+
+    .profits {
+        margin: 165px 60px 150px 60px;
+    }
+
+    .profits__grid-wrapper {
+        margin-bottom: 100px;
+    }
+
+
+    h2.profits__title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .profits__image {
+        justify-content: left;
+    }
+
+    .profits__image:nth-child(3) {
+        margin: 0;
+    }
+
+    .profits img {
+        width: auto;
+    }
+
+    .profits__list-content {
+        max-width: 630px;
+        margin: 0 auto 49px auto;
+    }
+
+    h2.profits__title {
+        margin-left: 0;
+    }
+
+    .profits ul {
+        padding-right: 0;
+    }
+
+    .profits li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .profits__list:nth-child(4) {
+        padding-top: 105px;
+    }
+
+
+
+
+
 }

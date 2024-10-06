@@ -142,7 +142,7 @@ const resizableSwiper_2 = (breakpoint, swiperClass, swiperSettings, callback) =>
     );
 
     resizableSwiper_2(
-      '(max-width: 1440px)',
+      '(max-width: 1439px)',
       '.swiper-sertificate',
       {
         effect: 'coverflow',
