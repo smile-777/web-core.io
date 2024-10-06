@@ -28,14 +28,7 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
-.text-18px {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-}
-
 .white-text-18px {
-    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
@@ -151,7 +144,7 @@ a.drop-menu__email {
     right: 0;
     bottom: 0;
     display: none;
-    z-index: 10;;
+    z-index: 10;
 }
 
 .modal_visible {
@@ -357,10 +350,12 @@ a:hover {
 
 
 @media (min-width: 768px) {
+
     header {
         max-width: 1280px;
         height: 97px;
-        margin: 5px 5%;
+        margin: 0;
+        padding: 0 4% 0 6%;
     }
 
     .drop-menu {
@@ -388,6 +383,7 @@ a:hover {
 
     .name-box {
         width: 178px;
+        height: 55px;
     }
 
     .rect-box_vertical {
@@ -401,9 +397,13 @@ a:hover {
         background-color: rgb(107, 90, 249);
     }
 
-    .button_call {
-        width: 60px;
+    .header .button_call {
+        width: 62px;
         height: 39px;
+    }
+
+    .call-icon {
+        width: 20px;
     }
 
     .slog {
@@ -429,6 +429,10 @@ a:hover {
         text-align: left;
     }
 
+    .cost .button_cost {
+        margin-left: -2px;
+    }
+
     .serv {
         margin: 10px 6% 10px 0;
         text-align: left;
@@ -446,8 +450,8 @@ a:hover {
     .content-img {
         width: 569px;
         height: auto;
-        margin-top: 6px;
-        margin-left: -48px;
+        margin-top: 8px;
+        margin-left: -34px;
     }
   }
 

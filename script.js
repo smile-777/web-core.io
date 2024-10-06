@@ -151,8 +151,8 @@ const resizableSwiper_2 = (breakpoint, swiperClass, swiperSettings, callback) =>
             slideShadows: false,
         },
 
-        slidesPerView: 1,
-        spaceBetween: 150,
+        slidesPerView: 'auto',
+        spaceBetween: 0,
         centeredSlides: true,
         loop: false,
 

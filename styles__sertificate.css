@@ -30,6 +30,10 @@
     text-align: center;
 }
 
+p.gold-sertificate {
+    width: 212px;
+}
+
 .sertificate h4 {
     color: rgb(159, 159, 159);
 }
@@ -40,7 +44,7 @@
     margin: 24px -28px;
     padding: 0;
     overflow: hidden;
-  }
+}
 
 .swiper-sertificate .swiper-slide img {
     width: 78%;
@@ -55,4 +59,45 @@
 
 .sertificate .swiper-pagination-bullet-active {
     background: rgb(107, 90, 249);
+}
+
+
+/*==========================*/
+
+@media (min-width: 768px) {
+
+    .sertificate {
+        margin: 100px 10px;
+    }
+
+    .inner {
+        margin: 26px 20px 32px 20px;
+    }
+
+    .reward-img {
+        width: 26.3%;
+        height: auto;
+        margin: 44px auto;
+    }
+
+
+
+    .swiper-sertificate {
+        margin: 26px -28px;
+    }
+
+    .swiper-sertificate .swiper-slide {
+        text-align: center;
+    }
+
+    .swiper-sertificate .swiper-slide img {
+        width: 55%;
+        height: auto;
+        margin: 0 11%;
+    }
+
+    .sertificate__swiper-pagination {
+        margin: 26px auto 32px auto;
+    }
+
 }

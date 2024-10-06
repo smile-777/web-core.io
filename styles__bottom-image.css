@@ -10,3 +10,15 @@
     position: relative;
     left: 25px;
 }
+
+
+@media (min-width: 768px) {
+
+    .bottom-image-wrapper img {
+        height: 459px;
+        left: 0;
+        /*max-width: 1280px;*/
+    }
+
+
+}

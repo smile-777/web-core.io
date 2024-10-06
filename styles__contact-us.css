@@ -19,7 +19,7 @@
     margin-bottom: 30px;
     padding-top: 27px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgb(107, 90, 249);
+    border-bottom: 1px solid rgba(107, 90, 249, 0.5);
 }
 
 .massagers-about-us {
@@ -49,4 +49,62 @@
 
 .policy {
     text-decoration: underline;
+}
+
+/*===============================*/
+
+@media (min-width: 768px) {
+
+    .contact-us {
+        padding: 0 7% 6% 7%;
+    }
+
+    .mail-us {
+        padding-top: 42px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .white-text-18px {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .mail-bottom {
+        font-size: 29px;
+        line-height: 35px;
+        margin-top: 21px;
+    }
+
+    .button-text {
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 700;
+    }
+
+    .contact-us .button_cost {
+        position: relative;
+        width: 341px;
+        margin-right: 0;
+        bottom: 78px;
+    }
+
+    .massagers-about-us {
+        margin: -20px 0 0 auto;
+    }
+
+    .bottom-schedule {
+        margin-top: -45px;
+    }
+
+    .bottom-text {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 33px;
+    }
+
+    .copywrite {
+        margin-bottom: 16px;
+    }
+
 }

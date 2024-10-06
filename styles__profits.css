@@ -56,3 +56,118 @@
     left: -17px;
     border-radius: 50%;
 }
+
+
+/*--------------------------------*/
+
+@media (min-width: 768px) {
+
+    .profits {
+        margin: 77px 1% 0 1%;
+    }
+
+    h2.profits__title {
+        max-width: 450px;
+        text-align: left;
+        margin-left: auto;
+    }
+
+    .profits h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    h3.accented-text {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+
+    .profits__grid-wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 85px;
+    }
+
+    .profits__list {
+        margin: 0;
+    }
+
+    .profits__list-content {
+        max-width: 450px;
+        margin-left: auto;
+        margin-bottom: 26px;
+    }
+
+    .profits__list ul {
+        padding-right: 20px;
+    }
+
+    .profits__image {
+        margin: 0;
+        
+    }
+
+    .profits img {
+        height: auto;
+        left: auto;
+        margin-bottom: 0;
+    }
+
+    .profits img.to-left {
+        left: 0;
+    }
+
+/*--------------------------------*/
+
+    .profits__image:nth-child(3) {
+        order: 1;
+        margin-left: -15px;
+    }
+
+    .profits__list:nth-child(4) {
+        order: 2;
+        padding-top: 50px;
+    }
+
+    .profits__list:nth-child(6) {
+        order: 3;
+        padding-top: 67px;
+    }
+
+    .profits__image:nth-child(5) {
+        order: 4;
+        padding-top: 30px;
+        margin-left: -75px;
+    }
+
+    .profits__image:nth-child(7) {
+        order: 5;
+        height: 250px;
+        padding-top: 55px;
+        margin-left: -30px;
+    }
+
+    .profits__list:nth-child(8) {
+        font-size: 14px;
+        line-height: 17px;
+        order: 6;
+        margin-top: 115px;
+    }
+
+    .profits__list:nth-child(10) {
+        order: 7;
+        margin-top: 110px;
+    }
+
+    .profits__image:nth-child(9) {
+        order: 8;
+        padding-top: 50px;
+        margin-left: -25px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    
+}

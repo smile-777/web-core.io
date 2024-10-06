@@ -18,6 +18,10 @@ a:hover {
     transition: 0.2s;
 }
 
+.swiper__title {
+    display: none;
+}
+
 .title_content {
     display: inline;
     font-size: 18px;
@@ -117,41 +121,46 @@ a:hover {
 
 @media (min-width: 768px) {
     body {
-        margin: 0;
+
         padding: 0;
         max-width: 100%;
     }
 
-    .title {
+    .swiper__title {
+        display: block;
+        width: 750px;
+        margin: 0 auto;
+        margin-top: 56px;
+    }
+
+    .title_content {
         font-size: 24px;
         font-weight: 800;
         line-height: 29px;
-        width: 750px;
-        margin: 0 auto;
-        margin-top: 41px;
     }
 
     .swiper {
         width: 98%;
-        padding: 0 10px;
+        padding: 0 7px;
         margin-top: 23px;
+        margin-left: 0;
     }
 
     .swiper_extended {
         height: auto;
     }
 
-    .swiper-wrapper {
+    .swiper-page .swiper-wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 21px;
+        gap: 20px;
         margin: 0;
         padding: 10px 0;
     }
 
-    .swiper-slide {
-        width: 363px;
+    .swiper .swiper-slide {
+        width: 364px;
     }
 
     .swiper-pagination {
