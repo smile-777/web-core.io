@@ -126,9 +126,7 @@
 @media (min-width: 1440px) {
 
     .steps {
-        margin-top: 55px;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin: 55px 140px 0 140px;
     }
 
     .steps .title {

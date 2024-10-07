@@ -120,11 +120,6 @@ a:hover {
 
 
 @media (min-width: 768px) {
-    body {
-
-        padding: 0;
-        max-width: 100%;
-    }
 
     .swiper__title {
         display: block;
@@ -187,9 +182,9 @@ a:hover {
 
 
   @media (min-width: 1440px) {
-    body {
-        max-width: 2500px;
-        margin: 0 auto;
+    
+    .swiper-page {
+        margin: 0 140px;
     }
 
     .title {
@@ -217,7 +212,7 @@ a:hover {
         padding: 10px 0;
     }
 
-    .swiper-slide {
+    .swiper .swiper-slide {
         width: 373px;
     }
 

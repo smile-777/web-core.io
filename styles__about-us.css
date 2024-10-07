@@ -183,7 +183,6 @@
 
     .about-us {
         margin-bottom: 250px;
-        overflow-x: hidden;
     }
 
     .about-us__decor-pic {
@@ -203,7 +202,7 @@
     .about-us__decor-pic img:nth-child(2) {
         width: 174px;
         position: relative;
-        right: -55px;
+        right: -45px;
         top: 420px;
     }
 
@@ -282,7 +281,7 @@
         overflow: visible;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0 60px;
+        margin: 0 140px;
         margin-bottom: 270px;
     }
 
@@ -312,7 +311,7 @@
         grid-column: span 2;
     }
 
-    .call-form {
+    .about-us .call-form {
         margin: 0;
     }
 

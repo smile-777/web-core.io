@@ -110,12 +110,20 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
+
+    section.contact-us {
+        max-width: 100%;
+    }
 
     .contact-us {
         overflow: visible;
-        width: 100%;
-        margin-left: -80px;
+        width: auto;
+        padding: 0 6% 4% 6%;
+    }
+
+    .bottom-schedule {
+        margin-top: -55px;
     }
 
     .white-text-18px {
@@ -151,6 +159,12 @@
 
     .massagers-about-us {
         margin-right: 4%;
+    }
+
+    .contact-us .name-box {
+        margin: -4% auto 24px auto;
+        width: 178px;
+        height: auto;
     }
 
 }

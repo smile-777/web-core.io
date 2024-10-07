@@ -65,7 +65,7 @@ header {
 
 .drop-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 360px;
     height: 720px;
     left: 0px;
@@ -120,7 +120,7 @@ header {
 }
 
 .drop-menu__contacts  {
-    margin-top: 207px;
+    margin-top: 200px;
 }
 
 .drop-menu__contacts a {
@@ -351,8 +351,11 @@ a:hover {
 
 @media (min-width: 768px) {
 
-    header {
+    body {
         max-width: 1280px;
+    }
+
+    header {
         height: 97px;
         margin: 0;
         padding: 0 4% 0 6%;
@@ -457,19 +460,29 @@ a:hover {
 
   @media (min-width: 1280px) {
     body {
-        width: 1280px;
+        max-width: 1280px;
         margin: 0 auto;
     }
 
   }
 
   @media (min-width: 1440px) {
+
+    body {
+        max-width: 1740px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     header {
         height: 115px;
-        margin: 0;
-        margin: 0;
-        padding: 0 0 0 60px;
+        padding: 0 80px 0 140px;
+        margin: 0 auto;
         justify-content: space-between;
+    }
+
+    section {
+        max-width: 1440px;
     }
 
     .header .navigation {
@@ -588,12 +601,16 @@ a:hover {
         padding-bottom: 3px;
     }
 
+    .main-page {
+        margin: 50px 140px 0 140px;
+    }
+
 
     .container {
         display: grid;
         align-items: start;
         max-width: 1280px;
-        margin-left: 60px;
+        margin-left: 0;
         padding: 0;
         grid-template-columns: 56% 44%;
         grid-template-rows: 7em 31% auto;

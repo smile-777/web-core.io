@@ -9,6 +9,11 @@
     line-height: 29px;
 }
 
+.research img {
+    width: 370px;
+    margin-left: -20px;
+}
+
 @media (min-width: 768px) {
 
     .research__wrapper {
@@ -32,7 +37,8 @@
 @media (min-width: 1440px) {
 
     .research {
-        margin-left: 61px;
+        margin-left: 141px;
+        margin-right: 78px;
     }
 
     .research__wrapper {
