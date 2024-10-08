@@ -52,7 +52,7 @@
     margin: 0 auto 21px auto;
 }
 
-.call-form > p:nth-child(2) {
+.about-us .call-form > p:nth-child(2) {
     margin: 0 4% 0 6%;
 }
 
@@ -246,7 +246,7 @@
         margin-bottom: 28px;
     }
 
-    .call-form > p:nth-child(2) {
+    .about-us .call-form > p:nth-child(2) {
         margin: 0 12% 0 12%;
     }
 

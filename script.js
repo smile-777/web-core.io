@@ -8,6 +8,7 @@ let modalWindow = document.querySelector('.modal');
 let menuCloserCross = document.querySelector('.drop-menu__cross');
 let greenRectangle = menuButton.querySelector('.rect-box__rectange_small');
 let menuLinkButton = document.querySelectorAll('.drop-menu a');
+let modalCross = modalWindow.querySelector('.modal__cross');
 
 menuButton.addEventListener('click', function () {
   overlay.classList.add('overlay_visible');
@@ -16,6 +17,10 @@ menuButton.addEventListener('click', function () {
 });
 
 menuCloserCross.addEventListener('click', function () {
+  closeModal();
+});
+
+modalCross.addEventListener('click', function () {
   closeModal();
 });
 
@@ -38,6 +43,7 @@ for (let i = 0; i < callButton.length; i++) {
 }
 
 var closeModal = function () {
+  modalWindow.classList.remove('modal_visible');
   overlay.classList.remove('overlay_visible');
   dropMenu.classList.remove('drop-menu_visible');
   greenRectangle.classList.remove('rect-box__rectange_small_active');
@@ -130,7 +136,7 @@ const resizableSwiper_2 = (breakpoint, swiperClass, swiperSettings, callback) =>
         },
 
         slidesPerView: 'auto',
-        spaceBetween: 150,
+        spaceBetween: 180,
         centeredSlides: true,
         loop: true,
 
