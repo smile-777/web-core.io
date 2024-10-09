@@ -11,9 +11,17 @@ let menuLinkButton = document.querySelectorAll('.drop-menu a');
 let modalCross = modalWindow.querySelector('.modal__cross');
 
 menuButton.addEventListener('click', function () {
-  overlay.classList.add('overlay_visible');
-  dropMenu.classList.add('drop-menu_visible');
-  greenRectangle.classList.add('rect-box__rectange_small_active');
+  if(dropMenu.classList.contains('drop-menu_visible')) {
+    overlay.classList.remove('overlay_visible');
+    overlay.classList.remove('overlay_shifted');
+    dropMenu.classList.remove('drop-menu_visible');
+    greenRectangle.classList.remove('rect-box__rectange_small_active');
+  } else {
+    overlay.classList.add('overlay_visible');
+    overlay.classList.add('overlay_shifted');
+    dropMenu.classList.add('drop-menu_visible');
+    greenRectangle.classList.add('rect-box__rectange_small_active');
+  }
 });
 
 menuCloserCross.addEventListener('click', function () {
@@ -45,6 +53,7 @@ for (let i = 0; i < callButton.length; i++) {
 var closeModal = function () {
   modalWindow.classList.remove('modal_visible');
   overlay.classList.remove('overlay_visible');
+  overlay.classList.remove('overlay_shifted');
   dropMenu.classList.remove('drop-menu_visible');
   greenRectangle.classList.remove('rect-box__rectange_small_active');
 };

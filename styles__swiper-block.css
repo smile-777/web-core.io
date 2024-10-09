@@ -2,21 +2,6 @@ a {
     text-decoration: none;
     color: rgb(107, 90, 249);
 }
- 
-a:hover {
-    background: rgb(107, 90, 249);
-    color: white;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.button:hover {
-    padding-top: 4px;
-    background-color: rgb(67, 54, 184);
-    color: white;
-    cursor: pointer;
-    transition: 0.2s;
-}
 
 .swiper__title {
     display: none;
@@ -169,6 +154,10 @@ a:hover {
         position: relative;
         margin: -3px auto;
         transition-duration: 0.3s;
+    }
+
+    .extend-button:hover {
+        cursor: pointer;
     }
 
     .extend-button__image {

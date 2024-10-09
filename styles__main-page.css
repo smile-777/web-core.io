@@ -35,6 +35,22 @@ h2 {
     margin: 0;
 }
 
+a:hover {
+    background: rgb(107, 90, 249);
+    height: 1.1em;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    padding-top: 4px;
+    background-color: rgb(67, 54, 184);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 header {
     position: sticky;
     top: 0px;
@@ -63,12 +79,17 @@ header {
     z-index: 1;
 }
 
+.overlay_shifted {
+    top: 63px;
+}
+
 .drop-menu {
-    display: none;
+    display: block;
     position: fixed;
-    width: 360px;
-    height: 720px;
-    left: 0px;
+    width: 100%;
+    height: 100%;
+    left: -105%;
+    transition: 0.5s;
     top: 62px;
     text-align: center;
     background-color: white;
@@ -77,20 +98,21 @@ header {
 }
 
 .drop-menu a {
+    color: rgb(42, 35, 103);
     display: block;
     width: 220px;
-    color: rgb(42, 35, 103);
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
     text-decoration: none;
-    background-color: white;
     margin: 0 auto;
-    padding: 14px;
+    padding: 14px 5px;
     border-radius: 10px;
 } 
 
 .drop-menu_visible {
+    left: 0;
+    transition: 0.5s;
     z-index: 10;
 }
 
@@ -102,8 +124,6 @@ header {
   
 .drop-menu a:hover {
     color: #ffffff;
-    transform: scale(1.1);
-    transition: 0.3s;
 }
 
 .drop-menu__cross {
@@ -120,7 +140,9 @@ header {
 }
 
 .drop-menu__contacts  {
-    margin-top: 200px;
+    position: absolute;
+    width: 100%;
+    top: 70%;
 }
 
 .drop-menu__contacts a {
@@ -128,11 +150,17 @@ header {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    padding: 3px 0 10px 6px;
+    padding: 3px 0 0 6px;
+    margin-bottom: 32px;
 }
 
-a.drop-menu__email {
-    margin-bottom: 20px;
+.drop-menu__contacts p {
+    color: rgb(107, 90, 249);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 .modal {
@@ -268,6 +296,10 @@ a:hover {
     z-index: -1;
 }
 
+.massagers {
+    display: none;
+}
+
 .modal__cross {
     text-align: right;
     margin-right: 10px;
@@ -312,6 +344,7 @@ a:hover {
 }
 
 .header .about-us__call-form input[type=text] {
+    color: rgb(126, 126, 126);
     background-color: rgb(255,255,255);
     font-size: 12px;
     font-weight: 700;
@@ -471,8 +504,13 @@ a:hover {
         padding: 0 4% 0 6%;
     }
 
+    .overlay_shifted {
+        top: 98px;
+    }
+
     .drop-menu {
         top: 97px;
+        width: 47%;
     }
 
     input[type="checkbox"]#cross {
@@ -518,7 +556,6 @@ a:hover {
     .call-icon {
         width: 20px;
     }
-
 
     .modal__cross {
         margin-right: 12px;
@@ -653,9 +690,11 @@ a:hover {
         top: 0px;
         border: none;
         padding: 0;
+        margin: 0 0 0 15px;
     }
 
     .drop-menu__contacts  {
+        position: static;
         margin: 0;
         width: 240px;
     }
@@ -668,6 +707,11 @@ a:hover {
         padding: 0;
     } 
 
+    .drop-menu a:hover {
+        padding: 5px 0;
+    }
+    
+
     a.drop-menu__email {
         display: none;
     }
@@ -679,9 +723,13 @@ a:hover {
         margin: 0;
     }
 
-    .drop-menu__schedule {
+    p.drop-menu__schedule {
         font-weight: 700;
         margin: 0;
+        color: rgb(42, 35, 103);
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
     }
 
     input[type="checkbox"]#cross {
@@ -708,8 +756,10 @@ a:hover {
 
     .massagers {
         display: flex;
-        padding: 5px 12px 0 0;
+        padding: 0;
         width: 50px;
+        height: 20px;
+        margin: -12px -15px 0 5px;
         justify-content: space-between;
     }
 
@@ -719,16 +769,11 @@ a:hover {
         padding-left: 3px;
     }
 
-    .phone-number {
+    p.phone-number {
+        color: rgb(42, 35, 103);
         font-size: 24px;
         font-weight: 800;
         line-height: 29px;
-    }
-
-    .schedule {
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 15px;
     }
 
     .header .button_call {
